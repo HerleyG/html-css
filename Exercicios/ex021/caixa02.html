@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+         background-color: lightblue ;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(75, 117, 131);
+            padding: 3px;
+            box-shadow: 10px 10px 10px rgb(255, 0, 0);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+            
+
+        }
+        nav:hover > .ctt{
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+        }
+
+         nav:hover > .ini{
+            text-decoration: underline;
+            color: rgb(0, 255, 170);
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        footer:hover {
+            background-color: rgb(29, 4, 255)
+        }
+        footer:hover > p > a{
+            display: block;
+            text-decoration: underline;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        article {
+            background-color: lightskyblue;
+            padding: 1px;
+        
+        }
+        article > aside {
+            background-color: rgb(112, 112, 9);
+            padding: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" class="ctt">Contato</a>
+            <a href="#" class="ini">Inicio</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="NotíciaS">
+            <article>
+               <h2>Noticia sobre o Brasil </h2>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nisi veniam, aliquam iste distinctio vero omnis saepe deserunt accusantium repellat neque ullam sed? Ex necessitatibus recusandae commodi veniam praesentium earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate modi laborum reprehenderit tenetur optio nobis corrupti aliquid sapiente! In consectetur repellendus commodi eius possimus velit a id sint qui repudiandae?</p>
+                <aside>
+                    <p>Artigo escrito por Guilherme almeida</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://www.instagram.com/hg7.a_/" target="_blank" ref="next">Desenvolvido por Herley.G</a></p>
+    </footer>
+    
+</body>
+</html>

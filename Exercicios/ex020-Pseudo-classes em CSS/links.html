@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold ;
+        }
+        a:visited {
+            color: rgb(139, 0, 0);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: darkred;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+        a  {
+            color: darkgreen;
+        }
+        .estrela::before {
+            content:  '🎥 ' ;
+        }
+        .estrela::after {
+            content: '';
+        }
+        .gitt::after {
+            content: '🎬 ' ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><div><a href="https://github.com/HerleyG?tab=repositories" target="_blank" ref="next" class="gitt">Repositório GitHub</a>
+        <p><img src="imagens/github.png" alt="image/png" height="307"></p></div></li>
+        <li><div><a href="https://www.instagram.com/hg7.a_/" target="_blank" ref="next" class="estrela">Instagram</a>
+        <p><img src="imagens/insta.png" alt="image/png"
+            width="637px"
+            height="307px"></p></div></li>
+        <li><div><a href="https://www.youtube.com/@hg7.sy01" target="_blank" ref="next" class="estrela">Canal Youtube</a>
+        <p><img src="imagens/yt.png" alt="image/png"></p></div></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            
+            
+        }
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            text-align: justify;
+        }
+        header {
+            background-color: white;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        header h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: darkblue;
+            padding:  10px 20px 10px 20px;
+            margin: 10px -10px 10px -10px;
+            text-align: right;  
+    
+        }
+
+        nav > a{
+            text-decoration: none;
+            text-decoration-color:rgb(255, 0, 0) ;
+            margin-right: 30px;
+            
+        }
+
+        #bb:hover{
+            
+        }
+
+    nav > a:hover {
+        text-decoration: underline;
+        
+    }
+
+    .red:hover{
+        text-decoration-color: red;
+    }
+    .blue:hover{
+        text-decoration-color: rgb(0, 255, 157);
+    }
+
+        article {
+            background-color: lightblue;
+            padding: 1px;
+        }
+
+        article >h1{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        article > aside {
+            background-color: rgb(142, 176, 187)
+        }
+        article > aside > p{
+            background-color: rgb(142, 176, 187)
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+    
+        footer {
+            background-color: darkblue;
+            text-align: center;
+            color: white;
+            padding: 2px;
+            margin:  0px;
+        }
+
+        footer:hover{
+            background-color: deepskyblue;
+        }
+
+        footer:hover > p > a{
+            text-decoration: underline;
+            display: block;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .pp{
+            font-size: 15px;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site semantico</h1>
+         <nav>
+            <a href="#" class="red">Link</a>
+            <a href="#" class="blue">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>          
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h1>Tecnlogia: analise e desenvolvimento de sistemas</h1>
+                <aside>
+                    <p class="pp">feito por mim</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odit et vitae earum voluptatibus dicta provident soluta, similique voluptatum quam! Velit nobis earum nam veritatis a nostrum eligendi incidunt similique?</p>
+                <aside>
+                <p class="pp">Conteudo escrito por herley.g</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://www.instagram.com/hg7.a_/">Desenvolvido por HERLEY.g</a></p>
+       
+    </footer>
+</body>
+</html>
